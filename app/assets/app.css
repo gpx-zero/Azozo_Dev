@@ -1,0 +1,123 @@
+::-webkit-scrollbar { width: 10px }
+::-webkit-scrollbar-track { background: #2a2a2a }
+::-webkit-scrollbar-thumb { background: #555 }
+::-webkit-scrollbar-thumb:hover { background: #aaa }
+html{
+    background-color: #000;
+}
+#body{
+    opacity: 0;
+}
+.body_anime{
+    animation: body_animation 0.5s;
+}
+@keyframes body_animation{
+    0%{opacity: 0}
+    100%{opacity: 1}
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+#main-list{
+    position: fixed;
+    z-index: 5;
+    opacity: 0.7;
+    width: 100%;
+    padding: 15px 50px;
+    box-shadow: 0 0 4px 0 #00000060;
+}
+#main-list img{
+    width: 40px;
+    vertical-align: middle;
+}
+#main-list span{
+    cursor: pointer;
+    padding: 20px 0;
+    padding-left: 30px;
+}
+#main-list span:hover{
+    color: #0dd;
+}
+#main-list #mode{
+    float: right;
+    padding: 0;
+    font-size: 1.2em;
+}
+#intro{
+    text-align: center;
+    margin-bottom: 150px;
+}
+#intro #download_years{
+    background-color: #111;
+    display: inline-block;
+    margin: 30px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+#intro h2{
+    font-size: 2.5em;
+}
+#intro h2 span {
+    color: #f050f0;
+    font-size: inherit;
+}
+#intro h2 img {
+    overflow: hidden;
+}
+.section{
+    display: flex;
+    width: 96%;
+    padding: 200px 10px;
+    border-radius: 5px;
+}
+.section .Azozo_Dev{
+    opacity: 0.4;
+}
+.section div{
+    background: linear-gradient(#5555ff40, #5555ff10);
+    width: 50%;
+    padding: 1em;
+    border-radius: 10px;
+}
+.section h2{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.section p{
+    font-size: 1.5em;
+}
+.section div p .contact_imgs{
+    cursor: pointer;
+    vertical-align: middle;
+    opacity: 0.6;
+}
+.section div p .contact_imgs:hover{
+    opacity: 1;
+}
+#donate{
+    background-color: #5555ff20;
+    padding: 20px;
+}
+#donate span{
+    background-color: #55ff55a0;
+    cursor: pointer;
+    padding: 5px;
+    font-weight: bold;
+}
+#donate span:hover{
+    background-color: #55ff55d0;
+}
+.title_project p{
+    background-color: #5555ff80;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.title_project img{
+    width: 49%;
+}

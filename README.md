@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="imgs/logo.png" alt="Azoz Dev logo" width="150">
+  <img src="imgs/m_imgs//logo.png" alt="Azoz Dev logo" width="150">
   <br><br><br>
 </div>
 
